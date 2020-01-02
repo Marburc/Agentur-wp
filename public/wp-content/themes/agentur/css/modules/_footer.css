@@ -1,0 +1,35 @@
+.footer {
+    background-color: $color-footer;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+    li {
+        list-style-type: none;
+        font-size: 14px;
+        text-decoration: none;
+
+        letter-spacing: 1px;
+    }
+    a {
+        text-decoration: none;
+        color: $heading_1;
+    }
+}
+@media (max-width: 575.98px) {
+    .footer {
+
+        ul {
+            flex-direction: column;
+        }
+        li {
+            margin-bottom: 4px;
+        }
+    }
+
+}

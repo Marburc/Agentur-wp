@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="137px" height="106px" viewBox="0 0 137 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>E-Commerce</title>
+    <desc>Created with Sketch.</desc>
+    <g id="App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Desktop-HD" transform="translate(-660.000000, -1545.000000)" stroke="#A5D0A8">
+            <g id="Services" transform="translate(166.000000, 997.000000)">
+                <g id="Service-Boxes" transform="translate(7.000000, 146.000000)">
+                    <g id="E-commer" transform="translate(380.000000, 405.000000)">
+                        <g id="E-Commerce" transform="translate(110.000000, 0.000000)">
+                            <g id="Cart">
+                                <path d="M97,74 C97,74 91.8140005,78.3013382 86.5998576,78.583155 C72.6794505,79.3355532 13,78.8396621 13,78.8396621" id="Stroke-1" stroke-width="4.5"></path>
+                                <path d="M109,16 C109,16 114.453857,-2.12195539 131,0.206616253" id="Stroke-2" stroke-width="4.5"></path>
+                                <path d="M87,84 C91.4156917,84 95,87.5846754 95,92 C95,96.4153246 91.4156917,100 87,100 C82.5849201,100 79,96.4153246 79,92 C79,87.5846754 82.5849201,84 87,84 Z" id="Stroke-3" stroke-width="4.5"></path>
+                                <path d="M27,83 C31.4153246,83 35,86.5846754 35,91 C35,95.4153246 31.4153246,99 27,99 C22.5846754,99 19,95.4153246 19,91 C19,86.5846754 22.5846754,83 27,83 Z" id="Stroke-4" stroke-width="4.5"></path>
+                                <path d="M109.068962,14.2019296 C94.5004964,12.7834283 21.134706,19.2230208 0.48054247,21.5221552 C-2.86883711,31.3099325 12.3880853,66.9834601 12.3880853,66.9834601 C12.3880853,66.9834601 80.2916146,69.2706748 97.763281,66.9834601 C104.081942,56.6470217 112.89824,22.6352517 109.068962,14.2019296 Z" id="Stroke-5" stroke-width="4.5"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

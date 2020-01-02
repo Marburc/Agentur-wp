@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="20px" viewBox="0 0 38 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-163.000000, -2960.000000)" stroke="#979797">
+            <g id="Optimierung" transform="translate(158.000000, 2745.000000)">
+                <g id="Optimierung-Content-1" transform="translate(7.000000, 52.000000)">
+                    <g id="Aufzählung" transform="translate(2.000000, 160.000000)">
+                        <g id="Group" transform="translate(0.938078, 1.148148)">
+                            <line x1="5.35026214e-14" y1="11.6037068" x2="16.6531014" y2="11.477453" id="Line" stroke-width="8" stroke-linecap="round"></line>
+                            <path d="M27.3007243,6.27591256 C27.0789579,5.88723764 26.7569319,5.56521168 26.368257,5.34344522 C25.1690204,4.6591961 23.6421536,5.07667595 22.9579044,6.27591256 L16.3087783,17.929381 C16.0934407,18.3067885 15.9801883,18.7338046 15.9801883,19.1683236 C15.9801883,20.5490355 17.0994764,21.6683236 18.4801883,21.6683236 L31.7784405,21.6683236 C32.2129595,21.6683236 32.6399756,21.5550712 33.0173831,21.3397335 C34.2166197,20.6554844 34.6340996,19.1286176 33.9498505,17.929381 L27.3007243,6.27591256 Z" id="Triangle" fill="#979797" transform="translate(25.129314, 11.814815) rotate(-270.000000) translate(-25.129314, -11.814815) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

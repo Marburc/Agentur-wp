@@ -1,0 +1,31 @@
+.site {
+
+     &-branding {
+    width: 110px;
+      }
+}
+
+header .top-bar li a {
+    padding-left: 4rem;
+    color: $heading_2;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+header .top-bar li a:hover {
+
+    color: $color-paragraph;
+
+}
+
+header .menu-item.current-menu-item  a{
+    color: $color-primary ;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+.is-visible {
+    opacity: 1 !important;
+    transform: none !important;
+}
+
+.animate-pop-in {
+    animation: no-transform .6s  cubic-bezier(0, .9, .3, 1.2 ) forwards;
+    opacity: 0;
+    transform: translateY(-4rem) scale(.8);
+}
+
+.animate-fade-in {
+    animation: no-transform 2s 2s ease-in forwards;
+    opacity: 0;
+
+}
+@keyframes no-transform {
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
