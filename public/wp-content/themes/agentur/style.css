@@ -3922,6 +3922,15 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
@@ -4731,11 +4740,6 @@ a:hover, a:active {
     display: block;
 }
 
-.post,
-.page {
-    margin: 0 0 1.5em;
-}
-
 .updated:not(.published) {
     display: none;
 }
@@ -4957,8 +4961,8 @@ h1 {
     margin: 0;
     margin-bottom: 4px;
     font-weight: 900;
-    font-size: calc(30px + 3.2vw);
-    line-height: calc(30px + 3.1vw);
+    font-size: calc(25px + 3.2vw);
+    line-height: calc(25px + 3.1vw);
     text-transform: uppercase;
 
 }
@@ -4982,10 +4986,15 @@ h3 {
     font-weight: 200;
 }
 
+.hero__content h1 {
+            margin-bottom: .6rem;
+        }
+
 .hero__content h2 {
-            font-size: calc(20px + 1vw);
-            line-height: calc(20px + 1.5vw);
+            font-size: calc(17px + 1vw);
+            line-height: calc(17px + 1.5vw);
             font-weight: 200;
+            margin-bottom: 2rem;
         }
 
 .about h2 {
@@ -5032,7 +5041,7 @@ h3 {
         }
 
 .questions h2 {
-        line-height: 2.5rem;
+
         padding-bottom: 1.2rem;
 
     }
@@ -5066,7 +5075,8 @@ header .menu-item.current-menu-item  a{
 }
 
 .services {
-    padding-top: 3rem;
+    background-color: #ffffff;
+    padding-top: 8rem;
     padding-bottom: 5rem;
 }
 
@@ -5109,15 +5119,30 @@ header .menu-item.current-menu-item  a{
 
 .hero {
 
-
     min-height: 90vh;
 }
 
 .hero__content {
         margin-left: -2rem;
-
         padding: 20px;
     }
+
+@media (max-width: 1199.98px) {
+
+   .hero {
+       min-height: inherit;
+   }
+}
+
+@media (max-width: 767.98px) {
+.hero {
+    text-align: center;
+}
+    .hero img {
+        width: 60%;
+    }
+
+}
 
 .portfolio {
 overflow: hidden;
@@ -5195,11 +5220,40 @@ overflow: hidden;
 }
 
 .questions {
-padding-top: 6rem;
-padding-bottom: 6rem;
-    overflow: hidden;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    display: grid;
+    grid-template-columns: minmax(60px, 1fr) repeat(8, minmax(-webkit-min-content, 140px)) minmax(60px, 1fr);
+    grid-template-columns: minmax(60px, 1fr) repeat(8, minmax(min-content, 140px)) minmax(60px, 1fr);
+    grid-template-rows: -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content;
+    grid-column-gap: 30px;
+    grid-row-gap: 2rem;
 
 }
+
+.questions__content-top {
+        grid-area: 1 / 2 / 2 / 6;
+    }
+
+.questions__img-top {
+        grid-area: 1 / 6 / 2 / 11;
+        width: 600px;
+        justify-self: center;
+-webkit-transform: translateY(-3rem);
+        transform: translateY(-3rem);
+
+    }
+
+.questions__content-bottom {
+        grid-area: 2 / 6 / 3 / 10;
+    }
+
+.questions__img-bottom {
+        grid-area: 2 / 2 / 3 / 6;
+        align-self: center;
+
+    }
 
 .questions ul {
         list-style-type: none;
@@ -5218,19 +5272,8 @@ padding-bottom: 6rem;
         }
 
 .questions h3 {
-
         color: #545454;
-
     }
-
-.questions__image-1 {
-        max-width: 100%;
-    }
-
-.questions__row-top {
-margin-bottom: 4.5rem;
-
-}
 
 .questions__arrow {
         float: left;
@@ -5238,6 +5281,88 @@ margin-bottom: 4.5rem;
         padding-top: 5px;
         margin-right: 15px;
     }
+
+@media (max-width: 1200px) {
+
+        .questions__img-top {
+            width: 95%;
+
+        }
+}
+
+@media (max-width: 991.98px) {
+
+    .questions {
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-row-gap: 1rem;
+
+    }
+
+        .questions__content-top {
+            grid-area: 1 / 1 / 2 / 7;
+        }
+
+        .questions__img-top {
+            grid-area: 1 / 7 / 2 / 11;
+            width: 100%;
+            align-self: center;
+            justify-self: end;
+
+        }
+
+        .questions__content-bottom {
+            grid-area: 2 / 5 / 3 / 11;
+        }
+
+        .questions__img-bottom {
+            grid-area: 2 / 1 / 3 / 5;
+            align-self: center;
+
+        }
+
+}
+
+@media (max-width: 767.98px) {
+    .questions {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        display: grid;
+        grid-template-columns: minmax(60px, 1fr) repeat(8, minmax(-webkit-min-content, 140px)) minmax(60px, 1fr);
+        grid-template-columns: minmax(60px, 1fr) repeat(8, minmax(min-content, 140px)) minmax(60px, 1fr);
+        grid-template-rows: -webkit-min-content -webkit-min-content;
+        grid-template-rows: min-content min-content;
+        grid-column-gap: 30px;
+        grid-row-gap: 2rem;
+    }
+
+        .questions h2 {
+            margin-bottom: 2px;
+        }
+
+        .questions__content-top {
+            grid-area: 1 / 1 / 2 / 11;
+            justify-self: end;
+
+        }
+
+        .questions__img-top {
+            display: none;
+
+        }
+
+        .questions__content-bottom {
+            grid-area: 2 / 1 / 3 / 11;
+        }
+
+        .questions__img-bottom {
+            display: none;
+            grid-area: 5 / 2 / 6 / 6;
+            align-self: center;
+
+        }
+
+}
 
 .cta {
     background-image: linear-gradient(132deg, #132222 0%, #0A1616 100%);

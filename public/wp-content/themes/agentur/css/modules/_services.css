@@ -1,5 +1,6 @@
 .services {
-    padding-top: 3rem;
+    background-color: #ffffff;
+    padding-top: 8rem;
     padding-bottom: $section-padding;
 
     h2 {

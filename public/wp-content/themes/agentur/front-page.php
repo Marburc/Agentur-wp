@@ -3,10 +3,10 @@ get_header();
 ?>
 <section class="hero">
     <div class="row align-content-center align-items-center">
-        <div class="col-md-6 ">
+        <div class="col-md-6  ">
             <img class="hero__image" src="<?php echo get_theme_file_uri('images/wallpainting.png') ?>" alt="">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 ">
             <div class="hero__content ">
                 <h1 class="hero__content-heading animate-pop-in"><span class="text-primary">Webdesigner</span> in <span
                             class="text-primary">Berlin</span> gesucht?</h1>
@@ -400,13 +400,11 @@ get_header();
     </div>
 </section>
 <section id="questions" class="questions">
-    <div class="container-fluid">
-        <div class="row align-items-center questions__row-top">
-            <div class=" col-lg-4 offset-2  ">
-                <h2>Bringt deine Website nicht die erwünschten <span class="text-primary">Ergebnisse</span> ?</h2>
-                <h3>Wir können helfen!</h3>
-                <ul>
-                    <li> <span>
+    <div class="questions__content-top">
+        <h2>Bringt deine Website nicht die erwünschten <span class="text-primary">Ergebnisse</span> ?</h2>
+        <h3>Wir können helfen!</h3>
+        <ul>
+            <li> <span>
                         <svg class="questions__arrow" width="38px" height="20px" viewBox="0 0 38 20" version="1.1"
                              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
@@ -430,9 +428,9 @@ get_header();
                         </g>
                     </g>
                 </svg> </span>
-                        <p> Ist Ihre Seite einfach Navigierbar, damit Ihr Kunde schnell die richtigen Informationen
-                            findet?</p></li>
-                    <li> <span>
+                <p> Ist Ihre Seite einfach Navigierbar, damit Ihr Kunde schnell die richtigen Informationen
+                    findet?</p></li>
+            <li> <span>
                         <svg class="questions__arrow" width="38px" height="20px" viewBox="0 0 38 20" version="1.1"
                              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
@@ -456,8 +454,8 @@ get_header();
                         </g>
                     </g>
                 </svg> </span>
-                        <p>Sind die call to actions richtig platziert?</p></li>
-                    <li> <span>
+                <p>Sind die call to actions richtig platziert?</p></li>
+            <li> <span>
                         <svg class="questions__arrow" width="38px" height="20px" viewBox="0 0 38 20" version="1.1"
                              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
@@ -481,102 +479,97 @@ get_header();
                         </g>
                     </g>
                 </svg> </span>
-                        <p> Basiert das Design deiner Website auf der Analyse einer heatmap?</p></li>
-                </ul>
-            </div>
-            <div class="col-lg-6 d-flex justify-content-center">
-                <img style="height: 350px" src="<?php echo get_theme_file_uri('images/graph.png') ?>" alt="">
-            </div>
-        </div>
-    <div class="row align-items-center justify-content-center">
-        <div class="col-lg-4 order-lg-12 ">
-            <h2>Nerds Town bringt deine Website auf den <span class="text-primary">neusten Stand! </span></h2>
-            <h3>Entspricht deine Website den neusten Webstandarts?</h3>
-            <ul>
-                <li> <span>
-                        <svg class="questions__arrow" width="38px" height="20px" viewBox="0 0 38 20" version="1.1"
-                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
-                    <title>Group</title>
-                    <desc>Created with Sketch.</desc>
-                    <g id="App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g id="Desktop-HD" transform="translate(-163.000000, -2960.000000)" stroke="#979797">
-                            <g id="Optimierung" transform="translate(158.000000, 2745.000000)">
-                                <g id="Optimierung-Content-1" transform="translate(7.000000, 52.000000)">
-                                    <g id="Aufzählung" transform="translate(2.000000, 160.000000)">
-                                        <g id="Group" transform="translate(0.938078, 1.148148)">
-                                            <line x1="5.35026214e-14" y1="11.6037068" x2="16.6531014" y2="11.477453"
-                                                  id="Line" stroke-width="8" stroke-linecap="round"></line>
-                                            <path d="M27.3007243,6.27591256 C27.0789579,5.88723764 26.7569319,5.56521168 26.368257,5.34344522 C25.1690204,4.6591961 23.6421536,5.07667595 22.9579044,6.27591256 L16.3087783,17.929381 C16.0934407,18.3067885 15.9801883,18.7338046 15.9801883,19.1683236 C15.9801883,20.5490355 17.0994764,21.6683236 18.4801883,21.6683236 L31.7784405,21.6683236 C32.2129595,21.6683236 32.6399756,21.5550712 33.0173831,21.3397335 C34.2166197,20.6554844 34.6340996,19.1286176 33.9498505,17.929381 L27.3007243,6.27591256 Z"
-                                                  id="Triangle" fill="#979797"
-                                                  transform="translate(25.129314, 11.814815) rotate(-270.000000) translate(-25.129314, -11.814815) "></path>
-                                        </g>
-                                    </g>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                </svg> </span>
-                    <p> Ist deine Website für Smartphones und Tablets optimiert?</p></li>
-                <li> <span>
-                        <svg class="questions__arrow" width="38px" height="20px" viewBox="0 0 38 20" version="1.1"
-                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
-                    <title>Group</title>
-                    <desc>Created with Sketch.</desc>
-                    <g id="App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g id="Desktop-HD" transform="translate(-163.000000, -2960.000000)" stroke="#979797">
-                            <g id="Optimierung" transform="translate(158.000000, 2745.000000)">
-                                <g id="Optimierung-Content-1" transform="translate(7.000000, 52.000000)">
-                                    <g id="Aufzählung" transform="translate(2.000000, 160.000000)">
-                                        <g id="Group" transform="translate(0.938078, 1.148148)">
-                                            <line x1="5.35026214e-14" y1="11.6037068" x2="16.6531014" y2="11.477453"
-                                                  id="Line" stroke-width="8" stroke-linecap="round"></line>
-                                            <path d="M27.3007243,6.27591256 C27.0789579,5.88723764 26.7569319,5.56521168 26.368257,5.34344522 C25.1690204,4.6591961 23.6421536,5.07667595 22.9579044,6.27591256 L16.3087783,17.929381 C16.0934407,18.3067885 15.9801883,18.7338046 15.9801883,19.1683236 C15.9801883,20.5490355 17.0994764,21.6683236 18.4801883,21.6683236 L31.7784405,21.6683236 C32.2129595,21.6683236 32.6399756,21.5550712 33.0173831,21.3397335 C34.2166197,20.6554844 34.6340996,19.1286176 33.9498505,17.929381 L27.3007243,6.27591256 Z"
-                                                  id="Triangle" fill="#979797"
-                                                  transform="translate(25.129314, 11.814815) rotate(-270.000000) translate(-25.129314, -11.814815) "></path>
-                                        </g>
-                                    </g>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                </svg> </span>
-                    <p>Ist sie für schnelle Ladezeiten optimiert für eine bessere Userexperience?</p></li>
-                <li> <span>
-                        <svg class="questions__arrow" width="38px" height="20px" viewBox="0 0 38 20" version="1.1"
-                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
-                    <title>Group</title>
-                    <desc>Created with Sketch.</desc>
-                    <g id="App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g id="Desktop-HD" transform="translate(-163.000000, -2960.000000)" stroke="#979797">
-                            <g id="Optimierung" transform="translate(158.000000, 2745.000000)">
-                                <g id="Optimierung-Content-1" transform="translate(7.000000, 52.000000)">
-                                    <g id="Aufzählung" transform="translate(2.000000, 160.000000)">
-                                        <g id="Group" transform="translate(0.938078, 1.148148)">
-                                            <line x1="5.35026214e-14" y1="11.6037068" x2="16.6531014" y2="11.477453"
-                                                  id="Line" stroke-width="8" stroke-linecap="round"></line>
-                                            <path d="M27.3007243,6.27591256 C27.0789579,5.88723764 26.7569319,5.56521168 26.368257,5.34344522 C25.1690204,4.6591961 23.6421536,5.07667595 22.9579044,6.27591256 L16.3087783,17.929381 C16.0934407,18.3067885 15.9801883,18.7338046 15.9801883,19.1683236 C15.9801883,20.5490355 17.0994764,21.6683236 18.4801883,21.6683236 L31.7784405,21.6683236 C32.2129595,21.6683236 32.6399756,21.5550712 33.0173831,21.3397335 C34.2166197,20.6554844 34.6340996,19.1286176 33.9498505,17.929381 L27.3007243,6.27591256 Z"
-                                                  id="Triangle" fill="#979797"
-                                                  transform="translate(25.129314, 11.814815) rotate(-270.000000) translate(-25.129314, -11.814815) "></path>
-                                        </g>
-                                    </g>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                </svg> </span>
-                    <p> Ist deine Website Cross Plattform optimiert, damit du keinen Potenziellen Kunden
-                        verpasst?</p></li>
-            </ul>
-
-        </div>
-        <div class="col-lg-6 d-flex justify-content-center">
-            <img class="questions__image-1" src="<?php echo get_theme_file_uri('images/responsive-design.jpg') ?>" alt="">
-        </div>
-
+                <p> Basiert das Design deiner Website auf der Analyse einer heatmap?</p></li>
+        </ul>
     </div>
+    <div class="questions__img-top">
+    <img  src="<?php echo get_theme_file_uri('images/graph.png') ?>" alt="">
+    </div>
+    <div class="questions__content-bottom">
+        <h2>Nerds Town bringt deine Website auf den <span class="text-primary">neusten Stand! </span></h2>
+        <h3>Entspricht deine Website den neusten Webstandarts?</h3>
+        <ul>
+            <li> <span>
+                        <svg class="questions__arrow" width="38px" height="20px" viewBox="0 0 38 20" version="1.1"
+                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+                    <title>Group</title>
+                    <desc>Created with Sketch.</desc>
+                    <g id="App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Desktop-HD" transform="translate(-163.000000, -2960.000000)" stroke="#979797">
+                            <g id="Optimierung" transform="translate(158.000000, 2745.000000)">
+                                <g id="Optimierung-Content-1" transform="translate(7.000000, 52.000000)">
+                                    <g id="Aufzählung" transform="translate(2.000000, 160.000000)">
+                                        <g id="Group" transform="translate(0.938078, 1.148148)">
+                                            <line x1="5.35026214e-14" y1="11.6037068" x2="16.6531014" y2="11.477453"
+                                                  id="Line" stroke-width="8" stroke-linecap="round"></line>
+                                            <path d="M27.3007243,6.27591256 C27.0789579,5.88723764 26.7569319,5.56521168 26.368257,5.34344522 C25.1690204,4.6591961 23.6421536,5.07667595 22.9579044,6.27591256 L16.3087783,17.929381 C16.0934407,18.3067885 15.9801883,18.7338046 15.9801883,19.1683236 C15.9801883,20.5490355 17.0994764,21.6683236 18.4801883,21.6683236 L31.7784405,21.6683236 C32.2129595,21.6683236 32.6399756,21.5550712 33.0173831,21.3397335 C34.2166197,20.6554844 34.6340996,19.1286176 33.9498505,17.929381 L27.3007243,6.27591256 Z"
+                                                  id="Triangle" fill="#979797"
+                                                  transform="translate(25.129314, 11.814815) rotate(-270.000000) translate(-25.129314, -11.814815) "></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg> </span>
+                <p> Ist deine Website für Smartphones und Tablets optimiert?</p></li>
+            <li> <span>
+                        <svg class="questions__arrow" width="38px" height="20px" viewBox="0 0 38 20" version="1.1"
+                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+                    <title>Group</title>
+                    <desc>Created with Sketch.</desc>
+                    <g id="App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Desktop-HD" transform="translate(-163.000000, -2960.000000)" stroke="#979797">
+                            <g id="Optimierung" transform="translate(158.000000, 2745.000000)">
+                                <g id="Optimierung-Content-1" transform="translate(7.000000, 52.000000)">
+                                    <g id="Aufzählung" transform="translate(2.000000, 160.000000)">
+                                        <g id="Group" transform="translate(0.938078, 1.148148)">
+                                            <line x1="5.35026214e-14" y1="11.6037068" x2="16.6531014" y2="11.477453"
+                                                  id="Line" stroke-width="8" stroke-linecap="round"></line>
+                                            <path d="M27.3007243,6.27591256 C27.0789579,5.88723764 26.7569319,5.56521168 26.368257,5.34344522 C25.1690204,4.6591961 23.6421536,5.07667595 22.9579044,6.27591256 L16.3087783,17.929381 C16.0934407,18.3067885 15.9801883,18.7338046 15.9801883,19.1683236 C15.9801883,20.5490355 17.0994764,21.6683236 18.4801883,21.6683236 L31.7784405,21.6683236 C32.2129595,21.6683236 32.6399756,21.5550712 33.0173831,21.3397335 C34.2166197,20.6554844 34.6340996,19.1286176 33.9498505,17.929381 L27.3007243,6.27591256 Z"
+                                                  id="Triangle" fill="#979797"
+                                                  transform="translate(25.129314, 11.814815) rotate(-270.000000) translate(-25.129314, -11.814815) "></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg> </span>
+                <p>Ist sie für schnelle Ladezeiten optimiert für eine bessere Userexperience?</p></li>
+            <li> <span>
+                        <svg class="questions__arrow" width="38px" height="20px" viewBox="0 0 38 20" version="1.1"
+                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+                    <title>Group</title>
+                    <desc>Created with Sketch.</desc>
+                    <g id="App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Desktop-HD" transform="translate(-163.000000, -2960.000000)" stroke="#979797">
+                            <g id="Optimierung" transform="translate(158.000000, 2745.000000)">
+                                <g id="Optimierung-Content-1" transform="translate(7.000000, 52.000000)">
+                                    <g id="Aufzählung" transform="translate(2.000000, 160.000000)">
+                                        <g id="Group" transform="translate(0.938078, 1.148148)">
+                                            <line x1="5.35026214e-14" y1="11.6037068" x2="16.6531014" y2="11.477453"
+                                                  id="Line" stroke-width="8" stroke-linecap="round"></line>
+                                            <path d="M27.3007243,6.27591256 C27.0789579,5.88723764 26.7569319,5.56521168 26.368257,5.34344522 C25.1690204,4.6591961 23.6421536,5.07667595 22.9579044,6.27591256 L16.3087783,17.929381 C16.0934407,18.3067885 15.9801883,18.7338046 15.9801883,19.1683236 C15.9801883,20.5490355 17.0994764,21.6683236 18.4801883,21.6683236 L31.7784405,21.6683236 C32.2129595,21.6683236 32.6399756,21.5550712 33.0173831,21.3397335 C34.2166197,20.6554844 34.6340996,19.1286176 33.9498505,17.929381 L27.3007243,6.27591256 Z"
+                                                  id="Triangle" fill="#979797"
+                                                  transform="translate(25.129314, 11.814815) rotate(-270.000000) translate(-25.129314, -11.814815) "></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg> </span>
+                <p> Ist deine Website Cross Plattform optimiert, damit du keinen Potenziellen Kunden
+                    verpasst?</p></li>
+        </ul>
+    </div>
+    <div class="questions__img-bottom">
+        <img class="questions__image-1" src="<?php echo get_theme_file_uri('images/responsive-design.jpg') ?>"
+             alt="">
     </div>
 
 </section>
@@ -594,7 +587,7 @@ get_header();
 <section class="about" id="about">
     <div class="container-lg">
         <div class="row align-items-center">
-            <div class="col-md-4 d-flex justify-content-end order-2">
+            <div class="col-md-4 d-flex justify-content-center order-2">
                 <img src="<?php echo get_theme_file_uri('images/martin.png') ?>" alt="">
             </div>
             <div class="col-md-8">
