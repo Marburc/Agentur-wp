@@ -1,30 +1,156 @@
-.site {
 
-     &-branding {
-    width: 110px;
-      }
+.navbar {
+    height: 70px;
+    background-color: #171717;
+    animation-delay: 1.5s;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+    -webkit-box-shadow: 2px 2px 08px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 08px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 08px 0px rgba(0, 0, 0, 0.75);
+
+    &__brand {
+        width: 100px;
+        padding: 10px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+    &__links {
+        display: flex;
+        list-style: none;
+
+        ul {
+            background-color: #2b2b2b;
+            display: none;
+
+        }
+
+        ul li {
+            list-style-type: none;
+            text-align: center;
+            padding: 5px;
+
+        }
+
+        ul li:last-child {
+            padding-bottom: 20px;
+        }
+        ul li:first-child {
+            padding-top: 20px;
+        }
+
+        ul li:hover {
+            list-style-type: none;
+            background-color: #525252;
+
+        }
+
+        ul li a {
+            font-size: 14px;
+            text-decoration: none;
+            color: #f8f5fb;
+            letter-spacing: 1px;
+
+        }
+
+        ul li a:hover {
+            color: $color-primary;
+        }
+
+    }
+
+    &__link {
+        margin-left: 60px;
+        font-size: 14px;
+        text-decoration: none;
+        color: #f8f5fb;
+        letter-spacing: 1px;
+    }
 }
 
-header .top-bar li a {
-    padding-left: 4rem;
-    color: $heading_2;
-    font-size: 16px;
-    letter-spacing: 1px;
-}
-header .top-bar li a:hover {
+.burger {
 
-    color: $color-paragraph;
-
+    cursor: pointer;
+    display: none;
 }
 
-header .menu-item.current-menu-item  a{
-    color: $color-primary ;
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #f2f2f2;
+    margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar__links {
+        background-color: #171717;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 5vh;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        transition: 0.5s ease-in;
+        opacity: 0;
+    }
+
+    .navbar__link {
+        margin: 0px;
+    }
+
+    .burger {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        display: block;
+    }
+
+    .active {
+        opacity: 1;
+    }
+
+}
+
+.current-menu-item a {
+    color: $color-primary;
+    border-bottom: 1px solid $color-primary;
+
+}
+
+.navbar__links > li {
+    position: relative;
+}
+
+.navbar__links ul {
+    position: absolute;
+    width: 100%;
 }
 
 
 
+ul li:hover ul  {
 
-
+    display: block;
+}
 
 
 

@@ -1,5 +1,5 @@
 .hero {
-
+    margin-top: 4rem;
     min-height: 90vh;
     &__content {
         margin-left: -2rem;

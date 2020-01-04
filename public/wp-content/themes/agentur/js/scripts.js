@@ -5,14 +5,14 @@
 //     module.hot.accept()
 // }
 
-// //navbar adding active class when clicked
-// const burger = document.querySelector('.burger');
-// const links = document.querySelector('.navbar__links');
-//
-// burger.addEventListener('click', () => {
-//     links.classList.toggle('active')
-//
-// })
+//navbar adding active class when clicked
+const burger = document.querySelector('.burger');
+const links = document.querySelector('.navbar__links');
+
+burger.addEventListener('click', () => {
+    links.classList.toggle('active')
+
+})
 
 
 // warten bis Content fertig geladen ist für Animation

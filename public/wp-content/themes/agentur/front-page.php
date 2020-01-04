@@ -1,8 +1,8 @@
 <?php
 get_header();
 ?>
-<section class="hero">
-    <div class="row align-content-center align-items-center">
+<section >
+    <div class="hero row align-content-center align-items-center">
         <div class="col-md-6  ">
             <img class="hero__image" src="<?php echo get_theme_file_uri('images/wallpainting.png') ?>" alt="">
         </div>
@@ -10,7 +10,7 @@ get_header();
             <div class="hero__content ">
                 <h1 class="hero__content-heading animate-pop-in"><span class="text-primary">Webdesigner</span> in <span
                             class="text-primary">Berlin</span> gesucht?</h1>
-                <h2>We are pushing the boundries of web development</h2>
+                <h2>We are pushing the boundries of web development!</h2>
                 <div style="animation-delay: 1s" class="animate-pop-in">
                     <button class="btn  ">Kontakt</button>
                 </div>

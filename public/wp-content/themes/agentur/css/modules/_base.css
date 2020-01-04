@@ -489,9 +489,7 @@ hr {
     margin-bottom: 1.5em;
 }
 
-ul, ol {
-    margin: 0 0 1.5em 3em;
-}
+
 
 ul {
     list-style: disc;
@@ -631,7 +629,7 @@ a {
 /*}*/
 
 a:hover, a:focus, a:active {
-    color: midnightblue;
+    color: $color-primary;
 }
 
 a:focus {
@@ -1049,6 +1047,10 @@ body {
 }
 
 $section-padding: 5rem;
+
+ul {
+    margin: 0; padding: 0;
+}
 
 
 
