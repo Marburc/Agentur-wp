@@ -6,12 +6,8 @@
       <change beforePath="$PROJECT_DIR$/public/wp-content/themes/agentur/css/modules/_base.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/wp-content/themes/agentur/css/modules/_base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/wp-content/themes/agentur/css/modules/_header.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/wp-content/themes/agentur/css/modules/_header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/wp-content/themes/agentur/css/modules/_hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/wp-content/themes/agentur/css/modules/_hero.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/agentur/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/wp-content/themes/agentur/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/agentur/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/wp-content/themes/agentur/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/agentur/js/scripts-bundled.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/wp-content/themes/agentur/js/scripts-bundled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/agentur/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/wp-content/themes/agentur/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/agentur/css/modules/_services.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/wp-content/themes/agentur/css/modules/_services.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/wp-content/themes/agentur/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/wp-content/themes/agentur/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/metadata" beforeDir="false" afterPath="$PROJECT_DIR$/sql/metadata" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577982535553</updated>
       <workItem from="1577982537541" duration="7045000" />
-      <workItem from="1578057010865" duration="28290000" />
+      <workItem from="1578057010865" duration="31101000" />
     </task>
     <servers />
   </component>
